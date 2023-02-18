@@ -1,0 +1,29 @@
+Tên bộ dữ liệu: LaptopDataset
+
+Dữ liệu được thu thập từ 5 trang web thương mại điện tử
+- CellphoneS: https://cellphones.com.vn/laptop.html
+- Sendo: https://www.sendo.vn/laptop
+- Thegioididong: https://www.thegioididong.com/laptop
+- Tiki: https://tiki.vn/laptop/c8095
+- FPTshop: https://fptshop.com.vn/may-tinh-xach-tay
+
+Bộ dữ liệu được thu thập và xử lý bởi Nguyễn Thị Hoàng Anh, Nguyễn Hà Dung, Nguyễn Hiếu Nghĩa và Nguyễn Thanh Thiện Quá, Khoa Khoa học và Kỹ thuật thông tin, Trường Đại học Công nghệ thông tin Đại học Quốc gia TPHCM.
+
+Nếu có thắc mắc, liên hệ email 20520134@gm.uit.edu.vn
+
+Bộ dữ liệu được thu thập nhằm mục đích xây dựng hệ khuyến nghị laptop dựa trên cấu hình máy tính.
+
+Bộ dữ liệu gồm 2086 dòng và 11 thuộc tính:
+- ID (integer): Mã id của laptop trong dataframe
+- Brand (char): Thương hiệu của laptop
+- Name (char): Tên của laptop
+- ScreenSize (float): Kích thước màn hình (đơn vị: inch)
+- CPU (char): Tên CPU của laptop
+- RAM (integer): Kích thước Ram của laptop (đơn vị: GB)
+- DefaultPrice (integer): Giá gốc của laptop
+- SalePrice (integer): Giá bán khuyến mãi của laptop
+- HDD (integer): Kích thước ổ HDD của laptop (đơn vị: GB)
+- SSD (integer): Kích thước ổ SSD của laptop (đơn vị: GB)
+- eMMC (integer): Kích thước ổ eMMC của laptop (đơn vị: GB)
+- Link (char): Đường link mua laptop
+- Website (char): Tên website bán laptop
