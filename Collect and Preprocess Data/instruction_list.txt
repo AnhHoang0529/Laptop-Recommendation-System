@@ -1,9 +1,0 @@
-Bước 1: Chạy file preprocessing_script.txt để thực hiện cào dữ liệu laptop từ 5 website, xuất 5 bộ dữ liệu riêng biệt gồm:
-
-- cellphones.csv: bộ dữ liệu laptop từ website CellphoneS, gồm 582 dòng và 10 thuộc tính (Brand, Name, ScreenSize, CPU, RAM, HardDisk, DefaultPrice, SalePrice, Link, Website)
-- fpt.csv: bộ dữ liệu laptop từ website FPTshop, gồm 254 dòng và 6 thuộc tính (Brand, Name, DefaultPrice, SalePrice, Link, Website)
-- sendo.csv: bộ dữ liệu laptop từ website Sendo, gồm 607 dòng và 11 thuộc tính (Brand, Name, ScreenSize, CPU, RAM, HardDiskType, HardDiskSize, DefaultPrice, SalePrice, Link, Website)
-- tgdd.csv: bộ dữ liệu laptop từ website Thegioididong, gồm 267 dòng và 6 thuộc tính (Brand, Name, DefaultPrice, SalePrice, Link, Website)
-- tiki.csv: bộ dữ liệu laptop từ website Tiki, gồm 424 dòng và 11 thuộc tính (Brand, Name, ScreenSize, CPU, RAM, HardDiskType, HardDiskSize, DefaultPrice, SalePrice, Link, Website)
-
-Bước 2: Sau khi điền thủ công giá trị thiếu trên Excel, 5 file dữ liệu trên đều gồm 10 thuộc tính (Brand, Name, ScreenSize, CPU, RAM, HardDisk, DefaultPrice, SalePrice, Link, Website). Chạy tiếp file LaptopProject.ipynb trong thư mục Model để gộp 5 bộ dữ liệu và thực hiện một số bước tiền xử lý để cho ra bộ dữ liệu tidy LaptopDataset.csv
