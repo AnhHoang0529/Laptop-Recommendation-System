@@ -1,5 +1,5 @@
 # Laptop Recommendation System
-This is the repository for Final Project of DS103 (Crawling and Preprocessing Data) of University of Information Technology (UIT). In this project, we crawl laptop data from local e-commerce websites and build a simple recommendation system according to the configuration.
+This is the repository for Final Project of DS103 (Data Collecting and Processing) of University of Information Technology (UIT). In this project, we crawl laptop data from local e-commerce websites and build a simple recommendation system according to the configuration.
 
 <h3> Laptop Dataset </h3>
 
